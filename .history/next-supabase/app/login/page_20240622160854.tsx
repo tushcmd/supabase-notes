@@ -2,7 +2,7 @@ import { login, signup } from './actions'
 
 export default function LoginPage() {
   return (
-    <form className='items-center justify-center p-40'>
+    <form className='items-center justify-center'>
       <label htmlFor="email">Email:</label>
       <input id="email" name="email" type="email" required />
       <label htmlFor="password">Password:</label>
